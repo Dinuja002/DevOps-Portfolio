@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My DevOps Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Dev<span>Portfolio.</span></a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+            ☰
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="intro">HELLO, WORLD! 👋</p>
+
+            <h1>
+                I'm an Aspiring<br>
+                <span>DevOps Engineer.</span>
+            </h1>
+
+            <p class="description">
+                Passionate about Cloud Computing, Automation,
+                Linux and modern DevOps technologies.
+                Learning today, building tomorrow.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">Explore Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="terminal">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span>terminal</span>
+            </div>
+
+            <div class="terminal-body">
+                <p><span class="green-text">user@devops</span>:~$ whoami</p>
+                <p class="terminal-output">Aspiring DevOps Engineer</p>
+
+                <p><span class="green-text">user@devops</span>:~$ skills</p>
+                <p class="terminal-output">Linux | Git | Docker</p>
+
+                <p><span class="green-text">user@devops</span>:~$ status</p>
+                <p class="terminal-output">Learning & Building 🚀</p>
+
+                <p><span class="green-text">user@devops</span>:~$ <span class="cursor">_</span></p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+
+        <p class="section-label">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+
+        <div class="about-card">
+            <p>
+                Hello! I'm an aspiring DevOps Engineer with a passion
+                for technology, cloud computing and automation.
+                I'm currently learning the fundamentals of DevOps
+                and developing my skills through hands-on projects.
+            </p>
+
+            <p>
+                My goal is to understand how modern applications
+                are developed, deployed and maintained.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+
+        <p class="section-label">MY TECHNOLOGIES</p>
+        <h2>Skills & <span>Tools</span></h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>🐧 Linux</h3>
+                <p>Operating System Fundamentals</p>
+                <span>Currently Learning</span>
+            </div>
+
+            <div class="skill-card">
+                <h3>🔧 Git & GitHub</h3>
+                <p>Version Control</p>
+                <span>Currently Learning</span>
+            </div>
+
+            <div class="skill-card">
+                <h3>🐳 Docker</h3>
+                <p>Containerization</p>
+                <span>Future Learning</span>
+            </div>
+
+            <div class="skill-card">
+                <h3>☁️ AWS</h3>
+                <p>Cloud Computing</p>
+                <span>Future Learning</span>
+            </div>
+
+            <div class="skill-card">
+                <h3>⚙️ CI/CD</h3>
+                <p>Automation & Deployment</p>
+                <span>Future Learning</span>
+            </div>
+
+            <div class="skill-card">
+                <h3>☸️ Kubernetes</h3>
+                <p>Container Orchestration</p>
+                <span>Future Learning</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+
+        <p class="section-label">MY WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-icon">🌐</div>
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    My personal portfolio built with HTML, CSS
+                    and JavaScript to showcase my DevOps learning journey.
+                </p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <small>In Progress 🚀</small>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🐳</div>
+                <h3>Docker Deployment</h3>
+                <p>
+                    A practical project to learn how to package
+                    and run applications using Docker containers.
+                </p>
+                <div class="project-tags">
+                    <span>Docker</span>
+                    <span>Linux</span>
+                </div>
+                <small>Planned Project</small>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+
+        <p class="section-label">LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+
+        <div class="contact-card">
+            <p>
+                Interested in connecting or discussing technology?
+                Feel free to reach out!
+            </p>
+
+            <a href="mailto:your-email@example.com" class="btn primary-btn">
+                Send Me an Email
+            </a>
+
+            <a href="https://github.com/your-username"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="github-link">
+                Visit My GitHub →
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My DevOps Portfolio. Built with passion ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
