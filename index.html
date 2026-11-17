@@ -1,226 +1,387 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My DevOps Portfolio</title>
+    <title>Dinuja Minsara | Aspiring DevOps Engineer</title>
+
+    <meta name="description"
+        content="Dinuja Minsara - ICT Undergraduate at University of Vavuniya and Aspiring DevOps Engineer.">
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <a href="#" class="logo">Dev<span>Portfolio.</span></a>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar container">
 
-        <ul class="nav-links" id="navLinks">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+            <a href="#home" class="logo">
+                Dinuja<span>.</span>
+            </a>
 
-        <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
-            ☰
-        </button>
-    </nav>
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
+    <section class="hero container" id="home">
 
         <div class="hero-content">
-            <p class="intro">HELLO, WORLD! 👋</p>
+
+            <p class="intro-text">
+                Hello, I'm
+            </p>
 
             <h1>
-                I'm an Aspiring<br>
-                <span>DevOps Engineer.</span>
+                Dinuja <span>Minsara</span>
             </h1>
 
-            <p class="description">
-                Passionate about Cloud Computing, Automation,
-                Linux and modern DevOps technologies.
-                Learning today, building tomorrow.
+            <h2>
+                Aspiring DevOps Engineer
+            </h2>
+
+            <p class="hero-description">
+                ICT Undergraduate at the University of Vavuniya,
+                passionate about technology, automation,
+                cloud computing and modern DevOps practices.
+                Currently building my skills and exploring
+                the world of DevOps Engineering.
             </p>
 
             <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn">Explore Projects</a>
-                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                <a href="#projects" class="btn primary-btn">
+                    Explore My Work
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
             </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dinuja-minsara-194985363/"
+                   target="_blank" rel="noopener noreferrer">
+                    LinkedIn ↗
+                </a>
+
+                <a href="mailto:jayalath2002dm@gmail.com">
+                    Email ↗
+                </a>
+            </div>
+
         </div>
 
-        <div class="terminal">
-            <div class="terminal-header">
-                <span class="dot red"></span>
-                <span class="dot yellow"></span>
-                <span class="dot green"></span>
-                <span>terminal</span>
+
+        <!-- Profile Placeholder -->
+        <div class="hero-image">
+
+            <div class="profile-placeholder">
+                <div class="profile-icon">DM</div>
+                <p>Profile Photo</p>
+                <span>Photo coming soon</span>
             </div>
 
-            <div class="terminal-body">
-                <p><span class="green-text">user@devops</span>:~$ whoami</p>
-                <p class="terminal-output">Aspiring DevOps Engineer</p>
-
-                <p><span class="green-text">user@devops</span>:~$ skills</p>
-                <p class="terminal-output">Linux | Git | Docker</p>
-
-                <p><span class="green-text">user@devops</span>:~$ status</p>
-                <p class="terminal-output">Learning & Building 🚀</p>
-
-                <p><span class="green-text">user@devops</span>:~$ <span class="cursor">_</span></p>
-            </div>
         </div>
 
     </section>
+
 
     <!-- About Section -->
-    <section class="section" id="about">
+    <section class="section container" id="about">
 
-        <p class="section-label">GET TO KNOW ME</p>
-        <h2>About <span>Me</span></h2>
+        <div class="section-heading">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
 
         <div class="about-card">
+
             <p>
-                Hello! I'm an aspiring DevOps Engineer with a passion
-                for technology, cloud computing and automation.
-                I'm currently learning the fundamentals of DevOps
-                and developing my skills through hands-on projects.
+                I am <strong>Dinuja Minsara</strong>, an ICT
+                undergraduate at the University of Vavuniya,
+                Sri Lanka, following the B.ICT Honours degree program.
             </p>
 
             <p>
-                My goal is to understand how modern applications
-                are developed, deployed and maintained.
+                I have a strong interest in DevOps Engineering,
+                Linux, cloud computing, automation and software
+                development.
             </p>
+
+            <p>
+                I am currently developing my technical knowledge
+                and practical skills through personal projects
+                and continuous learning. My goal is to become
+                a skilled DevOps Engineer and contribute to
+                modern technology projects.
+            </p>
+
         </div>
 
     </section>
 
-    <!-- Skills Section -->
-    <section class="section" id="skills">
 
-        <p class="section-label">MY TECHNOLOGIES</p>
-        <h2>Skills & <span>Tools</span></h2>
+    <!-- Education Section -->
+    <section class="section container" id="education">
+
+        <div class="section-heading">
+            <p class="section-label">MY ACADEMIC BACKGROUND</p>
+            <h2>My <span>Education</span></h2>
+        </div>
+
+        <div class="education-card">
+
+            <div class="education-icon">🎓</div>
+
+            <div>
+                <h3>B.ICT Honours</h3>
+
+                <h4>University of Vavuniya, Sri Lanka</h4>
+
+                <p>
+                    Undergraduate
+                </p>
+
+                <span class="status">
+                    Currently Studying
+                </span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="section container" id="skills">
+
+        <div class="section-heading">
+            <p class="section-label">MY TECHNICAL JOURNEY</p>
+            <h2>Technical <span>Skills</span></h2>
+        </div>
+
+        <p class="section-description">
+            Technologies I am learning and exploring
+            as part of my DevOps Engineering journey.
+        </p>
 
         <div class="skills-grid">
 
             <div class="skill-card">
-                <h3>🐧 Linux</h3>
-                <p>Operating System Fundamentals</p>
-                <span>Currently Learning</span>
+                <div class="skill-icon">🐧</div>
+                <h3>Linux</h3>
+                <p>Currently Learning</p>
             </div>
 
             <div class="skill-card">
-                <h3>🔧 Git & GitHub</h3>
-                <p>Version Control</p>
-                <span>Currently Learning</span>
+                <div class="skill-icon">🔧</div>
+                <h3>Git & GitHub</h3>
+                <p>Currently Learning</p>
             </div>
 
             <div class="skill-card">
-                <h3>🐳 Docker</h3>
-                <p>Containerization</p>
-                <span>Future Learning</span>
+                <div class="skill-icon">🐳</div>
+                <h3>Docker</h3>
+                <p>Future Learning</p>
             </div>
 
             <div class="skill-card">
-                <h3>☁️ AWS</h3>
-                <p>Cloud Computing</p>
-                <span>Future Learning</span>
+                <div class="skill-icon">⚙️</div>
+                <h3>CI/CD</h3>
+                <p>Future Learning</p>
             </div>
 
             <div class="skill-card">
-                <h3>⚙️ CI/CD</h3>
-                <p>Automation & Deployment</p>
-                <span>Future Learning</span>
+                <div class="skill-icon">☁️</div>
+                <h3>AWS Cloud</h3>
+                <p>Future Learning</p>
             </div>
 
             <div class="skill-card">
-                <h3>☸️ Kubernetes</h3>
-                <p>Container Orchestration</p>
-                <span>Future Learning</span>
+                <div class="skill-icon">☸️</div>
+                <h3>Kubernetes</h3>
+                <p>Future Learning</p>
             </div>
 
         </div>
 
     </section>
 
-    <!-- Projects Section -->
-    <section class="section" id="projects">
 
-        <p class="section-label">MY WORK</p>
-        <h2>Featured <span>Projects</span></h2>
+    <!-- Projects Section -->
+    <section class="section container" id="projects">
+
+        <div class="section-heading">
+            <p class="section-label">WHAT I'M BUILDING</p>
+            <h2>My <span>Projects</span></h2>
+        </div>
 
         <div class="projects-grid">
 
             <div class="project-card">
-                <div class="project-icon">🌐</div>
+
+                <div class="project-number">01</div>
+
                 <h3>Personal Portfolio Website</h3>
+
                 <p>
-                    My personal portfolio built with HTML, CSS
-                    and JavaScript to showcase my DevOps learning journey.
+                    A responsive personal portfolio website
+                    developed using HTML, CSS and JavaScript
+                    to showcase my education, skills and
+                    learning journey.
                 </p>
+
                 <div class="project-tags">
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>JavaScript</span>
+                    <span>GitHub</span>
                 </div>
-                <small>In Progress 🚀</small>
+
+                <span class="project-status">
+                    In Progress
+                </span>
+
             </div>
 
+
             <div class="project-card">
-                <div class="project-icon">🐳</div>
-                <h3>Docker Deployment</h3>
+
+                <div class="project-number">02</div>
+
+                <h3>Dockerized Portfolio</h3>
+
                 <p>
-                    A practical project to learn how to package
-                    and run applications using Docker containers.
+                    A planned project to package my portfolio
+                    website into a Docker container and
+                    understand containerization concepts.
                 </p>
+
                 <div class="project-tags">
                     <span>Docker</span>
                     <span>Linux</span>
                 </div>
-                <small>Planned Project</small>
+
+                <span class="project-status">
+                    Planned
+                </span>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">03</div>
+
+                <h3>CI/CD Automation Pipeline</h3>
+
+                <p>
+                    A planned project to explore automated
+                    testing and deployment using GitHub Actions
+                    and CI/CD workflows.
+                </p>
+
+                <div class="project-tags">
+                    <span>GitHub Actions</span>
+                    <span>CI/CD</span>
+                </div>
+
+                <span class="project-status">
+                    Planned
+                </span>
+
             </div>
 
         </div>
 
     </section>
 
+
     <!-- Contact Section -->
-    <section class="section" id="contact">
+    <section class="section container" id="contact">
 
-        <p class="section-label">LET'S CONNECT</p>
-        <h2>Contact <span>Me</span></h2>
+        <div class="section-heading">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
 
-        <div class="contact-card">
-            <p>
-                Interested in connecting or discussing technology?
-                Feel free to reach out!
-            </p>
+        <p class="section-description">
+            Feel free to reach out for networking,
+            collaboration and learning opportunities.
+        </p>
 
-            <a href="mailto:your-email@example.com" class="btn primary-btn">
-                Send Me an Email
+        <div class="contact-grid">
+
+            <a href="mailto:jayalath2002dm@gmail.com"
+               class="contact-card">
+                <span class="contact-icon">✉</span>
+                <h3>Email</h3>
+                <p>jayalath2002dm@gmail.com</p>
             </a>
 
-            <a href="https://github.com/your-username"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="github-link">
-                Visit My GitHub →
+            <a href="tel:+94772775476"
+               class="contact-card">
+                <span class="contact-icon">☎</span>
+                <h3>Phone</h3>
+                <p>0772775476</p>
             </a>
+
+            <a href="https://www.linkedin.com/in/dinuja-minsara-194985363/"
+               target="_blank" rel="noopener noreferrer"
+               class="contact-card">
+                <span class="contact-icon">in</span>
+                <h3>LinkedIn</h3>
+                <p>Connect with me</p>
+            </a>
+
         </div>
 
     </section>
 
+
     <!-- Footer -->
     <footer>
-        <p>© 2026 My DevOps Portfolio. Built with passion ❤️</p>
+
+        <div class="container footer-content">
+
+            <p>
+                © <span id="current-year"></span>
+                Dinuja Minsara. All Rights Reserved.
+            </p>
+
+            <p>
+                Designed & Built with ❤️
+            </p>
+
+        </div>
+
     </footer>
+
 
     <script src="script.js"></script>
 

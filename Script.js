@@ -1,25 +1,39 @@
 
-// Select the menu button
-const menuBtn = document.getElementById("menuBtn");
+// Mobile Navigation
 
-// Select the navigation links
-const navLinks = document.getElementById("navLinks");
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
 
-// When menu button is clicked
-menuBtn.addEventListener("click", function () {
+menuToggle.addEventListener("click", function () {
 
-    // Toggle the active class
     navLinks.classList.toggle("active");
+
+    const isExpanded = navLinks.classList.contains("active");
+
+    menuToggle.setAttribute("aria-expanded", isExpanded);
 
 });
 
-// Close menu after clicking a navigation link
-navLinks.querySelectorAll("a").forEach(function (link) {
 
-    link.addEventListener("click", function () {
+// Close Navigation After Clicking a Link
+
+const navigationItems = document.querySelectorAll(".nav-links a");
+
+navigationItems.forEach(function (item) {
+
+    item.addEventListener("click", function () {
 
         navLinks.classList.remove("active");
+
+        menuToggle.setAttribute("aria-expanded", "false");
 
     });
 
 });
+
+
+// Automatically Update Footer Year
+
+const currentYear = document.getElementById("current-year");
+
+currentYear.textContent = new Date().getFullYear();
